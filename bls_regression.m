@@ -41,7 +41,7 @@ f=200;
 time=0:1/f:4-1/f;
 
 fontsize=24;
-for i=2
+for i=1:4
     figure('Position',[100 100 800 800])  
     subplot(2,1,1)
     plot(time,test_x(i,:),'.-k','markersize',10,'linewidth',0.1);ylabel('Voltage (v)');xlabel('Time (s)');
